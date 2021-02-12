@@ -24,10 +24,12 @@ Personal-Assistant is a web based application for busy professionals of modern d
 
 # Future Work
 * Refine plan your day module to block only 30 or 20 minute slots.
+* Submit button for heath tracker feature. On Clicking submit user gets a suggestion based on his tasks done.
 * Connecting the three modules(features)
   * Less important tasks can move from "plan your day" to "prioritize list" 
-* Submit button for heath tracker feature. On Clicking submit user gets a suggestion based on his tasks done.
-* Connecting the three modules. Undone tasks in health checker moves to priority list 
+  * Un checked parts of "health tracker" go to "prioritize list"
+  * Prioritize the task using "prioritize list" and put important tasks back to calender
+
 
 
 ## Development server
