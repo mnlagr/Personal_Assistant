@@ -16,6 +16,20 @@ Personal-Assistant is a web based application for busy professionals of modern d
 * CSS
 * TypeScript
 
+# How it works
+* It provides 3 features.
+* Plan Your Day: Allows user to add their tasks against appropriate time. Get a proper visual of their whole day and plan accordingly
+* Prioritize Tasks: Drop the less urgent tasks here and rearrange based on priority (drag-drop to do this)
+* Heath Check: Keep a check of your health routine by checking the tasks
+
+# Future Work
+* Refine plan your day module to block only 30 or 20 minute slots.
+* Connecting the three modules(features)
+  * Less important tasks can move from "plan your day" to "prioritize list" 
+* Submit button for heath tracker feature. On Clicking submit user gets a suggestion based on his tasks done.
+* Connecting the three modules. Undone tasks in health checker moves to priority list 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
