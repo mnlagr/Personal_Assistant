@@ -23,7 +23,7 @@ Personal-Assistant is a web based application for busy professionals of modern d
 * Heath Check: Keep a check of your health routine by checking the tasks
 
 # Future Work
-* Refine plan your day module to block only 30 or 20 minute slots. Can generalize the module to hold data about a month rather than a day.
+* Refine "plan your day" module to block only 30 or 20 minute slots. Can generalize the module to hold data about a month rather than a day.
 * Submit button for heath tracker feature. On Clicking submit user gets a suggestion based on his tasks done.
 * Connecting the three modules(features)
   * Less important tasks can move from "plan your day" to "prioritize list" 
