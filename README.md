@@ -4,7 +4,8 @@ Personal-Assistant is a web based application for busy professionals of modern d
 Working demo is added.
 
 # Run Project Locally
-Assumes local installation of [Node.js and NPM](https://www.techomoro.com/install-node-js-and-npm-on-windows-10/#:~:text=Install%20Node.js%20and%20NPM%20on%20Windows%2010%201,Choose%20the%20installation%20directory.%20...%20More%20items...) installed] 
+* Assumes local installation of [Node.js and NPM](https://www.techomoro.com/install-node-js-and-npm-on-windows-10/#:~:text=Install%20Node.js%20and%20NPM%20on%20Windows%2010%201,Choose%20the%20installation%20directory.%20...%20More%20items...) 
+* Install Angular CLI --> npm install -g @angular/cli
 
 
 
