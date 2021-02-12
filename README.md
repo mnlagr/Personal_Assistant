@@ -10,7 +10,7 @@ Personal-Assistant is a web based application for busy professionals of modern d
 * Open the Personal-Assistant project using VS code or any other editor.
 * Run  following commands in terminal install all the dependencies
   * `npm install`
-  * `npm i ngx-smooth-dnd'
+  * `npm i ngx-smooth-dnd`
 * Run `ng serve` in terminal to run the project on localhost.
 
 # Technologies Used
