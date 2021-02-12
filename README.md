@@ -1,9 +1,12 @@
 # PersonalAssistant
 
 Personal-Assistant is a web based application for busy professionals of modern day. Here is a functional prototype for the same. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+Working demo is added.
 
-# Working Demo
-![plot](C:\Users\agrawalme\health)
+# Run Project Locally
+Assumes local installation of [Node.js and NPM](https://www.techomoro.com/install-node-js-and-npm-on-windows-10/#:~:text=Install%20Node.js%20and%20NPM%20on%20Windows%2010%201,Choose%20the%20installation%20directory.%20...%20More%20items...) installed] 
+
+
 
 ## Development server
 
