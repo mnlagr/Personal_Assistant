@@ -1,0 +1,10 @@
+<div>
+    <div class="simple-page">
+      <smooth-dnd-container (drop)="onDrop($event)">            
+        <smooth-dnd-draggable *ngFor="let item of items;let i = index;">
+           <input class = "box1" [(ngModel)] = "items[i].data" (click) = "display()" >
+        </smooth-dnd-draggable>
+      </smooth-dnd-container>
+    </div>
+</div>
+

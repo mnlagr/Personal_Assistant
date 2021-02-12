@@ -1,0 +1,52 @@
+.buttonClass{
+    height: 30px;
+    width: 700px;
+   
+    border-color: #e9f8ff;
+    border-style: groove;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    position: relative;
+    bottom:20px;
+    }
+    .buttonClass.active{
+    background-color: #eff7e1;
+    }
+
+.detail
+{
+    height: 20px;
+    width: 200px;
+    background-color: #eff7e1;
+    border-color: #e9f8ff;
+    font-family: 'Sacramento', cursive;
+    border-style: groove;
+}
+
+.un_selected {
+    background-color: #eff7e1;
+    
+}
+
+.selected {
+    background-color: #a6a9b6;
+    
+}
+
+
+
+
+.header{
+   text-shadow: #214151;
+   text-align: center;
+   color: #214151 ;
+   font-family: 'Sacramento', cursive;
+   position: relative;
+   top: 30px;
+   left: 40px;
+   font-size: 20px;
+   
+}
+
+
+

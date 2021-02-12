@@ -1,0 +1,39 @@
+.block1{
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: 100;
+
+    display: inline-block;
+    background-color: #214151;
+    outline: 0;
+    color: rgb(245, 241, 241);
+    border-radius: 5px;
+    border-style: groove;
+    border-color: azure;
+    
+    position: relative;
+    left: 200px;
+    bottom: 48px;
+
+
+}
+.align_right
+{
+    position: relative;
+    left: 400px;
+    bottom: 380px;
+}
+
+.adjust
+{
+    position: relative;
+    bottom: 10px; 
+    font-family:  'Sacramento', cursive;
+    font-size: 20px;
+}
+
+
