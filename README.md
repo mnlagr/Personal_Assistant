@@ -1,6 +1,9 @@
 # PersonalAssistant
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+Personal-Assistant is a web based application for busy professionals of modern day. Here is a functional prototype for the same. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+
+# Working Demo
+!(demo/demo.gif)
 
 ## Development server
 
