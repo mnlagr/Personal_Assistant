@@ -1,0 +1,66 @@
+
+.block1{
+    width: 300px;
+    height: 40px;
+
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    font-weight: 100;
+
+    display: inline-block;
+    /* background-color: white; */
+    outline: 0;
+    color: rgb(245, 241, 241);
+    border-radius: 5px;
+    border-style: groove;
+    border-color: azure;
+    
+    position: relative;
+    left: 50px;
+    /* bottom: 48px; */
+
+
+}
+
+.button_submit{
+    width: 150px;
+    height: 40px;
+
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    font-weight: 100;
+
+    display: inline-block;
+    background-color: #214151;
+    outline: 0;
+    color: rgb(245, 241, 241);
+    border-radius: 5px;
+    border-style: groove;
+    border-color: azure;
+    
+    position: relative;
+    left: 120px;
+    top: 20px;
+   
+
+
+}
+
+.un_selected {
+    background-color: #ff8585;
+    
+}
+
+.selected {
+    background-color: #d35d6e;
+}
+
+.adjust{
+
+    width: 300px;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+}

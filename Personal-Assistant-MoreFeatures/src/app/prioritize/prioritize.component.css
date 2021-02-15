@@ -1,0 +1,37 @@
+
+.box{
+    width: 700px;
+    height: 60px;
+
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    font-weight: 600;
+
+    display: inline-block;
+    background-color: #045762;
+    outline: 0;
+    color: rgb(245, 241, 241);
+    border-radius: 5px;
+    border-style: groove;
+    border-color: azure;
+    
+    position: relative;
+    right: 5px;
+    bottom: 25px;
+
+
+}
+
+
+.header{
+    text-shadow: #214151;
+    text-align: center;
+    color: #214151 ;
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: 40px;
+    
+ }
+ 

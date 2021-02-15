@@ -1,0 +1,37 @@
+
+<div class = "header">
+<label class = "text">WoRk In HanD:
+    <input class = "input_task" [(ngModel)]="task.data" placeholder="name"/>
+</label>
+</div>
+
+<button (click)="Reset()" type="submit" class="buttonClass" >
+     <!-- <clr-icon shape="refresh" ></clr-icon>  -->
+     Reset
+</button>
+
+<div class = "adjust"><div class = "adjust_text">{{question}} </div></div>
+
+
+<button (click)="Yes()" type="submit" class="button_yes" >Yes</button>
+<br>
+<button (click)="No()" type="submit" class="button_no" >No</button>
+<br>
+
+<div class="for_action_list">
+    <h2 class = "list_text">Action List</h2>
+    <hr>
+    <div *ngFor="let item of action_list">
+        *{{item}}
+        <br>
+    </div>
+</div>
+
+<div class="for_assistance_list">
+    <h2 class = "list_text">Assistance List</h2>
+    <hr>
+    <div *ngFor="let item of assistance_list">
+        *{{item}}
+        <br>
+    </div>
+</div>

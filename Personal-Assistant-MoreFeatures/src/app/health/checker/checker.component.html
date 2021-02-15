@@ -1,0 +1,38 @@
+
+        <button (click)="enableDisableRule_sleep_toggle($event)" [ngClass]="{'un_selected' : sleep_toggle, 'selected': !sleep_toggle}" class = "block1" >
+        Slept for 8 hours</button>
+        <br><br>
+
+
+        <button (click)="enableDisableRule_workout_toggle($event)" [ngClass]="{'un_selected' : workout_toggle, 'selected': !workout_toggle}" class = "block1" >
+        Did cardio workout</button>
+        <br><br>
+
+
+        <button (click)="enableDisableRule_family_toggle($event)" [ngClass]="{'un_selected' : family_toggle, 'selected': !family_toggle}" class = "block1" >
+        Spent time with family</button>
+        <br><br>
+
+
+        <button (click)="enableDisableRule_meditation_toggle($event)" [ngClass]="{'un_selected' : meditation_toggle, 'selected': !meditation_toggle}" class = "block1" >
+        Meditated for 30 minutes</button>
+        <br><br>
+
+        <button (click)="enableDisableRule_gratitude_toggle($event)" [ngClass]="{'un_selected' : gratitude_toggle, 'selected': !gratitude_toggle}" class = "block1" >
+        Practiced Gratitude</button>
+        <br><br>
+
+
+
+        <button (click)="enableDisableRule_pet_toggle($event)" [ngClass]="{'un_selected' : pet_toggle, 'selected': !pet_toggle}" class = "block1" >
+        Played with my pet</button>
+        <br><br>
+
+
+        <!-- <button (click)="enableDisableRule_walk_toggle($event)" [ngClass]="{'un_selected' : walk_toggle, 'selected': !walk_toggle}" class = "block1" >
+        Went for evening walk</button> -->
+
+        <button (click)="Feedback()" type="submit" class="button_submit" >Tell Feedback</button>
+
+        <h1 class = "adjust">{{feedback_text}}</h1>
+   

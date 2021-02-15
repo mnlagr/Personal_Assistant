@@ -1,0 +1,124 @@
+<div >
+
+    <label class = "detail"><span>12:00 am -1:00am</span>
+        <input (click) = "enableDisableRule_twelveam($event)" [ngClass]="{'un_selected' : toggle_twelveam, 'selected': !toggle_twelveam}"  [(ngModel)]="times[0].data" placeholder="name" class = "buttonClass" >
+    </label>
+    <br>
+    <label class = "detail"><span>1:00 am - 2:00am</span>
+        <input (click) = "enableDisableRule_oneam($event)" [ngClass]="{'un_selected' : toggle_oneam, 'selected': !toggle_oneam}"  [(ngModel)]="times[1].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>2:00 am - 3:00am</span>
+        <input (click) = "enableDisableRule_twoam($event)" [ngClass]="{'un_selected' : toggle_twoam, 'selected': !toggle_twoam}"  [(ngModel)]="times[2].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>3:00 am - 4:00am</span>
+        <input (click) = "enableDisableRule_threeam($event)" [ngClass]="{'un_selected' : toggle_threeam, 'selected': !toggle_threeam}"  [(ngModel)]="times[3].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>4:00 am - 5:00am</span>
+        <input (click) = "enableDisableRule_fouram($event)" [ngClass]="{'un_selected' : toggle_fouram, 'selected': !toggle_fouram}"  [(ngModel)]="times[4].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>5:00 am - 6:00am</span>
+        <input (click) = "enableDisableRule_fiveam($event)" [ngClass]="{'un_selected' : toggle_fiveam, 'selected': !toggle_fiveam}"  [(ngModel)]="times[5].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>6:00 am - 7:00am</span>
+        <input (click) = "enableDisableRule_sixam($event)" [ngClass]="{'un_selected' : toggle_sixam, 'selected': !toggle_sixam}"  [(ngModel)]="times[6].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>7:00 am - 8:00am</span>
+        <input (click) = "enableDisableRule_sevenam($event)" [ngClass]="{'un_selected' : toggle_sevenam, 'selected': !toggle_sevenam}"  [(ngModel)]="times[7].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>8:00 am - 9:00am</span>
+        <input (click) = "enableDisableRule_eightam($event)" [ngClass]="{'un_selected' : toggle_eightam, 'selected': !toggle_eightam}"  [(ngModel)]="times[8].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>9:00am - 10:00am</span>
+        <input (click) = "enableDisableRule_nineam($event)" [ngClass]="{'un_selected' : toggle_nineam, 'selected': !toggle_nineam}"  [(ngModel)]="times[9].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>10:00am -11:00am</span>
+        <input (click) = "enableDisableRule_tenam($event)" [ngClass]="{'un_selected' : toggle_tenam, 'selected': !toggle_tenam}"  [(ngModel)]="times[10].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>11:00am -12:00pm</span>
+        <input (click) = "enableDisableRule_elevenam($event)" [ngClass]="{'un_selected' : toggle_elevenam, 'selected': !toggle_elevenam}"  [(ngModel)]="times[11].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>12:00pm - 1:00pm</span>
+        <input (click) = "enableDisableRule_twelvepm($event)" [ngClass]="{'un_selected' : toggle_twelvepm, 'selected': !toggle_twelvepm}"  [(ngModel)]="times[12].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+
+    <br>
+    <label class = "detail"><span>1:00 pm -2:00 pm</span>
+        <input (click) = "enableDisableRule_onepm($event)" [ngClass]="{'un_selected' : toggle_onepm, 'selected': !toggle_onepm}"  [(ngModel)]="times[13].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>2:00 pm - 3:00pm</span>
+        <input (click) = "enableDisableRule_twopm($event)" [ngClass]="{'un_selected' : toggle_twopm, 'selected': !toggle_twopm}"  [(ngModel)]="times[14].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>3:00 pm - 4:00pm</span>
+        <input (click) = "enableDisableRule_threepm($event)" [ngClass]="{'un_selected' : toggle_threepm, 'selected': !toggle_threepm}"  [(ngModel)]="times[15].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>4:00pm - 5:00 pm</span>
+        <input (click) = "enableDisableRule_fourpm($event)" [ngClass]="{'un_selected' : toggle_fourpm, 'selected': !toggle_fourpm}"  [(ngModel)]="times[16].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>5:00pm - 6:00 pm</span>
+        <input (click) = "enableDisableRule_fivepm($event)" [ngClass]="{'un_selected' : toggle_fivepm, 'selected': !toggle_fivepm}"  [(ngModel)]="times[17].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>6:00 pm - 7:00pm</span>
+        <input (click) = "enableDisableRule_sixpm($event)" [ngClass]="{'un_selected' : toggle_sixpm, 'selected': !toggle_sixpm}"  [(ngModel)]="times[18].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>7:00 pm - 8:00pm</span>
+        <input (click) = "enableDisableRule_sevenpm($event)" [ngClass]="{'un_selected' : toggle_sevenpm, 'selected': !toggle_sevenpm}"  [(ngModel)]="times[19].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>8:00 pm - 9:00pm</span>
+        <input (click) = "enableDisableRule_eightpm($event)" [ngClass]="{'un_selected' : toggle_eightpm, 'selected': !toggle_eightpm}"  [(ngModel)]="times[20].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>9:00pm- 10:00pm</span>
+        <input (click) = "enableDisableRule_ninepm($event)" [ngClass]="{'un_selected' : toggle_ninepm, 'selected': !toggle_ninepm}"  [(ngModel)]="times[21].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>10:00pm-11:00pm</span>
+        <input (click) = "enableDisableRule_tenpm($event)" [ngClass]="{'un_selected' : toggle_tenpm, 'selected': !toggle_tenpm}"  [(ngModel)]="times[22].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    <br>
+    <label class = "detail"><span>11:00pm-12:00pm</span>
+        <input (click) = "enableDisableRule_elevenpm($event)" [ngClass]="{'un_selected' : toggle_elevenpm, 'selected': !toggle_elevenpm}"  [(ngModel)]="times[23].data" placeholder="name" class = "buttonClass" >
+    </label>
+
+    
+    
+</div>
