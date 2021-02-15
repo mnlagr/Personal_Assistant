@@ -1,6 +1,40 @@
 # PersonalAssistant
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+Personal-Assistant is a web based application for busy professionals of modern day. Here is a functional prototype for the same. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+* More features are added here.
+
+# Run Project Locally
+* Assumes local installation of [Node.js and NPM](https://www.techomoro.com/install-node-js-and-npm-on-windows-10/#:~:text=Install%20Node.js%20and%20NPM%20on%20Windows%2010%201,Choose%20the%20installation%20directory.%20...%20More%20items...) 
+* Install Angular CLI --> `npm install -g @angular/cli`
+* Clone or fork this repository.
+* Open the Personal-Assistant project using VS code or any other editor.
+* Run  following commands in terminal install all the dependencies
+  * `npm install`
+  * `npm i ngx-smooth-dnd`
+* Run `ng serve` in terminal to run the project on localhost.
+
+# Technologies Used
+* Angular Framework
+* HTML
+* CSS
+* TypeScript
+
+# How it works
+* It provides 3 features.
+* Plan Your Day: Allows user to add their tasks against appropriate time. Get a proper visual of their whole day and plan accordingly
+* Prioritize Tasks: Drop the less urgent tasks here and rearrange based on priority (drag-drop to do this)
+* Heath Check: Keep a check of your health routine by checking the tasks
+* Decision Maker: Do, outsurce or completely eliminate using this tool. It uses [Flowchart 4HWW](https://www.google.com/search?q=flowchart+of+4HWW+jed+wood&rlz=1C1GCEA_enIN936SG938&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjNq7bUmevuAhVJWX0KHUFsBtoQ_AUoAXoECA8QAw&biw=1280&bih=610&dpr=1.5#imgrc=PDz6v6R9K9tIJM) to take decisions
+
+# Future Work
+* Refine "plan your day" module to block only 30 or 20 minute slots. Can generalize the module to hold data about a month rather than a day.
+* Submit button for heath tracker feature. On Clicking submit user gets a suggestion based on his tasks done.
+* Connecting the three modules(features)
+  * Less important tasks can move from "plan your day" to "prioritize list" 
+  * Un checked parts of "health tracker" go to "prioritize list".
+  * Prioritize the task using "prioritize list" and put important tasks back to "plan your day".
+
+
 
 ## Development server
 
