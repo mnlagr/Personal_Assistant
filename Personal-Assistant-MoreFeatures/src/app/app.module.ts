@@ -13,6 +13,7 @@ import { PrioritizeComponent } from './prioritize/prioritize.component';
 import { NgxSmoothDnDModule } from 'ngx-smooth-dnd';
 import { DecisionComponent } from './decision/decision.component'
 import { CheckerComponent } from './health/checker/checker.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -24,7 +25,8 @@ import { CheckerComponent } from './health/checker/checker.component';
     HealthComponent,
     PrioritizeComponent,
     CheckerComponent,
-    DecisionComponent
+    DecisionComponent,
+    HomeComponent
   
    
     
@@ -58,7 +60,12 @@ import { CheckerComponent } from './health/checker/checker.component';
      {
       path: 'decision',
       component: DecisionComponent
-     }
+     },
+
+     {
+      path: 'home',
+      component: HomeComponent
+     },
    ])
     
   ],

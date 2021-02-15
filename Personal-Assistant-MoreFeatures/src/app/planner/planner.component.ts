@@ -21,6 +21,7 @@ export class PlannerComponent implements OnInit {
 
   times = Times;
   
+  
 toggle_twelveam = true;
 status_twelveam = ''; 
 enableDisableRule_twelveam(job: any) {
