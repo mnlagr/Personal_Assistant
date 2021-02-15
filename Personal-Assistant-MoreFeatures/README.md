@@ -21,10 +21,11 @@ Personal-Assistant is a web based application for busy professionals of modern d
 * TypeScript
 
 # How it works
-* It provides 3 features.
+* It provides 4 features.
 * Plan Your Day: Allows user to add their tasks against appropriate time. Get a proper visual of their whole day and plan accordingly
 * Prioritize Tasks: Drop the less urgent tasks here and rearrange based on priority (drag-drop to do this)
 * Heath Check: Keep a check of your health routine by checking the tasks
+* Decision Maker: This allows a busy professional to choose amongst hundreds of opportunities and ideas. [Flowchat of 4HWWW](https://www.google.com/search?q=flowchart+of+4HWW&rlz=1C1GCEA_enIN936SG938&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjpztuvgevuAhWxFLcAHcceBzgQ_AUoAXoECA4QAw&biw=1280&bih=610&dpr=1.5#imgrc=PDz6v6R9K9tIJM)
 
 # Future Work
 * Refine "plan your day" module to block only 30 or 20 minute slots. Can generalize the module to hold data about a month rather than a day.
