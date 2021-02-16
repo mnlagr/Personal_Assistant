@@ -2,7 +2,7 @@
 
 Personal-Assistant is a web based application for busy professionals of modern day. Here is a functional prototype for the same. It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
-* [Documenta](https://docs.google.com/document/d/1IoHPJhprKZrbAHJjZ_hZIDPQF-y-aqlYtqynBgAh1Tg/edit?usp=sharing)
+* [Document](https://docs.google.com/document/d/1IoHPJhprKZrbAHJjZ_hZIDPQF-y-aqlYtqynBgAh1Tg/edit?usp=sharing)
 * More features are added here.
 
 # Run Project Locally
